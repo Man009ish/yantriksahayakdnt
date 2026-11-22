@@ -8,13 +8,24 @@
   <meta name="theme-color" content="#064e3b">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    html, body { width: 100%; height: 100%; overflow: hidden; background-color: #f8fafc; }
-    iframe { width: 100%; height: 100%; border: none; display: block; }
+    html, body { 
+      width: 100%; 
+      height: 100dvh; /* मोबाइल एड्रेस बार के हिसाब से सटीक ऊंचाई */
+      overflow: hidden; 
+      background-color: #f8fafc; 
+    }
+    iframe { 
+      width: 100%; 
+      height: 100dvh; 
+      border: none; 
+      display: block; 
+    }
   </style>
 </head>
 <body>
   <iframe 
     src="https://script.google.com/macros/s/AKfycbz6WavM44HK3wsK5aXEP5V-lrYtTlRGsZwhXscQb8ZxPstdXZqqNqX8k8wyp1OrlColYQ/exec" 
+    scrolling="yes"
     allow="camera; microphone; geolocation; clipboard-read; clipboard-write">
   </iframe>
   <script>
