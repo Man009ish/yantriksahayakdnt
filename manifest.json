@@ -1,0 +1,17 @@
+{
+  "name": "यांत्रिक सहायक - दंतेवाड़ा कृषि अभियांत्रिकी",
+  "short_name": "यांत्रिक सहायक",
+  "id": "/yantrik-portal/",
+  "start_url": "/yantrik-portal/index.html",
+  "scope": "/yantrik-portal/",
+  "display": "standalone",
+  "background_color": "#064e3b",
+  "theme_color": "#064e3b",
+  "icons": [
+    {
+      "src": "./icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
